@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+  <style> type="text/css"
+      body{
+          background-color: lightgreen;
+          font-family: verdana;
+      }
+      .form-control{
+          text-align: left;
+          margin-bottom: 20px;
+          color: blue
+      }
+      
+      form{
+          margin: 10px auto;
+          padding: 30px 20px;
+          max-width: 500px;
+          background-color: white;
+      }
+      
+      .form-control input,
+      .form-control select,
+      .form-control textarea{
+          display: block;
+          padding: 10px;
+          width: 90%;
+      }
+      
+      .form-control input[type="radio"],
+      .form-control input[type="checkbox"]{
+          display: inline-block;
+          width: auto;
+      }
+      
+      button{
+          color: blue;
+          display: block;
+          width= 100%;
+          padding: 0.90px 185px;
+      }
+      
+  </style>
+</head>
+<body>
+<h1 style="text-align: center;"> Survey form</h1>
+
+<form style="text-align:center;">
+    <fieldset>
+    <div class="form-control">
+    <fieldset>
+    <div class="form-control">
+    <label style="display: block; margin-bottom: 10px">Name</label>
+    <input type="text" name="Name" placeholder="Enter your name">
+    </div>
+    
+    <div class="form-control">
+    <label style="display: block; margin-bottom: 10px">Email</label>
+    <input type"text" name="Name" placeholder="Enter your email"
+    </div>
+    
+    <div class="form-control">
+    <label style="display: block; margin-bottom:10px">Age</label>
+    <input type="text" name="Name" placeholder="Enter your age">
+    </div>
+    
+    <div class="form-control">
+    <label style="display: block; margin-bottom: 10px">Which Option Describes You?</label>
+    <select>
+      <option>Student</option>
+      <option>Internship</option>
+      <option>Professional</option>
+      <option>Other</option>
+    </select>
+    </div>
+    
+    <div class="form-control">
+    <label style="display: block; margin-bottom: 10px">Would you recommend to your friend</label>
+    <input type="radio" name="Choice">Yes
+    <input type="radio" name="Choice">No
+    </div>
+    
+    <div class="form-control"
+    <label style="display: block; margin-bottom: 10px">Any Comments or Suggestions</label>
+    <textarea placeholder="Enter your comment here"></textarea>
+    </div>
+    
+    <button type="submit">Submit</button>
+    </fieldset>
+</form>
+</body>
+
+</html>
